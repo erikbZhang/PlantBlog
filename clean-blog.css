@@ -31,15 +31,7 @@ a:hover,
 a:focus {
   color: #0085A1;
 }
-img {
-    max-width:100%;
-    height: auto;
-    width: auto\9; /* ie8*/
-}
-a img:hover,
-a img:focus {
-  cursor: zoom-in;
-}
+
 blockquote {
   color: #777777;
   font-style: italic;
@@ -391,14 +383,6 @@ form .row:first-child .floating-label-form-group {
   color: white;
   text-shadow: none;
   background: #0085A1;
-}
-img::selection {
-  color: white;
-  background: transparent;
-}
-img::-moz-selection {
-  color: white;
-  background: transparent;
 }
 body {
   -webkit-tap-highlight-color: #0085A1;
