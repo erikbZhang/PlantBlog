@@ -31,6 +31,11 @@ a:hover,
 a:focus {
   color: #0085A1;
 }
+img {
+    max-width:100%;
+    height: auto;
+    width: auto\9; /* ie8*/
+}
 a img:hover,
 a img:focus {
   cursor: zoom-in;
